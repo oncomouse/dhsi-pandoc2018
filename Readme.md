@@ -123,7 +123,7 @@ Open Terminal (<kbd>⌘</kbd>+<kbd>Space</kbd>, then "Terminal" and <kbd>⏎</kb
 
 We're installing [scoop](https://scoop.sh/), an FOSS installer for Windows.
 
-Open Powershell (<kbd>Win</kbd>+<kbd>R</kbd>, then "powershell" and <kbd>Enter</kbd>). In Powershell paste (right-click) the following: `iex (new-object net.webclient).downloadstring('https://get.scoop.sh')` and press <kbd>Enter</kbd>.
+Open Powershell (<kbd>Win</kbd>+<kbd>R</kbd>, then "powershell" and <kbd>⏎</kbd>). In Powershell paste (right-click) the following: `iex (new-object net.webclient).downloadstring('https://get.scoop.sh')` and press <kbd>⏎</kbd>.
 
 ## Install Git
 
