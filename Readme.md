@@ -271,8 +271,16 @@ Open Powershell again and run `scoop install ruby`.
 
 Open Terminal again and run `brew install ruby`.
 
+### Downloading the Repo
+
+In your command line, `cd` to where you would like to start your book. Run `git clone https://github.com/oncomouse/rake-and-pandoc` to clone the repo. You can rename that repo by running `mv rake-and-pandoc "My Awesome Book"` (with "My Awesome Book" (but not the quotes) replaced with your awesome book title).
+
+Also, to clear out my repo's GitHub URL (and to eventually start your own), run `git remote rm origin`.
+
 ### Configuring Ruby
 
-In your command line (either Powershell or Terminal), run `gem install bundler`. Then in the directory we cloned off of GitHub (so, run `cd rake-and-pandoc` first), run `bundle install`.
+In your command line (either Powershell or Terminal) `cd` into the directory you just created (either `cd rake-and-pandoc` or `cd "Whatever Your Book is Called"`). Run `gem install bundler`. Next, run `bundle install`.
 
-Afterwards, you should be good to go!
+Read the `Readme.md` file for more information on how to use `rake` (which we just installed) to build parts or all of your MS.
+
+Happy Writing!
