@@ -195,11 +195,17 @@ open Powershell (<kbd>Win+R</kbd>, type "powershell", and press <kbd>Enter</kbd>
 
 ### Install and Configure Packages
 
-On your command line (Powershell for Windows; Terminal for macOS), copy and paste the following line: `apm install markdown-preview-plus markdown-writer language-pfm autocomplete-bibtex`. Press <kbd>⏎</kbd>.
+On your command line (Powershell for Windows; Terminal for macOS), copy and paste the following line: `apm install markdown-preview-plus markdown-writer language-pfm autocomplete-bibtex wordcount`. Press <kbd>⏎</kbd>.
 
-When that finishes, go back to Atom. Bring up the command palette (<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>) and type "installed". Choose "Setting View: View Installed Packages" from the dropdown and press <kbd>⏎</kbd>. In the "Installed Packages" tab that opens, search for "gfm" and find the package **"language-gfm"** in the results. Click the "Disable" button in that result card.
+When that finishes, go back to Atom. Bring up the command palette (<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd> on macOS; <kbd>Ctrl</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd> on Windows) and type "installed". Choose "Setting View: View Installed Packages" from the dropdown and press <kbd>⏎</kbd>. In the "Installed Packages" tab that opens, search for "gfm" and find the package **"language-gfm"** in the results. Click the "Disable" button in that result card.
 
 You may need to restart Atom at this point.
+
+Atom is *very* powerful and highly configurable. You may want to [change your theme](https://flight-manual.atom.io/using-atom/sections/atom-packages/#atom-themes) (as I have); you may also want to investigate what packages developers use when working with your favorite language (I have Python and JavaScript heavily customized as well).
+
+You may also want to turn on [autosave](https://atom.io/packages/autosave) to automatically save your work as you edit it.
+
+* [List of Atom Themes](https://atom.io/themes)
 
 ## Install Zotero
 
@@ -223,7 +229,7 @@ Restart Zotero
 
 In Zotero, right click on "My Library" and choose "Export Library ..." from the drop-down menu. From the "Format" dropdown menu, choose "Better BibLaTeX" and check the box next to "Keep updated". Save the file someplace permanent, "Documents" on macOS or "My Documents" on Windows,  and name it whatever you like.
 
-In Atom, bring up the command palette (<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>) and type "installed". Choose "Setting View: View Installed Packages" from the dropdown and press <kbd>⏎</kbd>. In the "Installed Packages" tab that opens, search for "autocomplete" and find the package **"autocomplete-bibtex"** in the results. Click the "Settings" button in that result card.
+In Atom, bring up the command palette (<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd> or <kbd>Ctrl</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>) and type "installed". Choose "Setting View: View Installed Packages" from the dropdown and press <kbd>⏎</kbd>. In the "Installed Packages" tab that opens, search for "autocomplete" and find the package **"autocomplete-bibtex"** in the results. Click the "Settings" button in that result card.
 
 Under the "Settings" heading, find the input field labelled "Bibtex". Type the file path for your exported library. For instance, if you saved it to "Documents" on macOS, type "~/Documents/My Library.bib" (assuming you didn't rename the file).
 
