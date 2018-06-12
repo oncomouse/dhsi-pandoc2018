@@ -289,4 +289,10 @@ In your command line (either Powershell or Terminal) `cd` into the directory you
 
 Read the `Readme.md` file for more information on how to use `rake` (which we just installed) to build parts or all of your MS.
 
+## Further Reading
+
+* ["A Plain Text Workflow for Academic Writing with Atom"](http://u.arizona.edu/~selisker/post/workflow/)
+* ["Sustainable Authorship in Plain Text using Pandoc and Markdown"](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+* [*The Plain Person’s Guide to Plain Text Social Science*](http://plain-text.co/)
+
 Happy Writing!
