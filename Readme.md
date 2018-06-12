@@ -6,10 +6,12 @@ Advantages of writing this way:
 
 * Writing anywhere
     * Markdown is an open format that, at the end of the day, is just plain text. You can dictate on your phone and paste it into your MS without any formatting problems.
-* Meaningful track changes on Dropbox or GitHub
-    * Because Markdown is plain text, the changes tracked on your favorite offsite backup will track word-by-word edits.
+* Maintainability
+    * As an open format, the Markdown document you write today will be just as readable in a decade. No worrying about updating your MS to new versions of a proprietary word processor!
 * Automatically generate works cited and references
     * Including the ability to switch citation styles without reformatting!
+* Meaningful track changes on Dropbox or GitHub
+    * Because Markdown is plain text, the changes tracked on your favorite offsite backup will track word-by-word edits.
 
 ## Agenda
 
