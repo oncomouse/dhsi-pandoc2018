@@ -1,5 +1,7 @@
 # Writing Made Plain
 
+[@ansell-pearson_germinal_1999, p. 45]
+
 This tutorial page is designed to get you writing in Markdown,  exporting to MS Word, and fully automating the management of your citations.
 
 Advantages of writing this way:
@@ -271,7 +273,7 @@ Reviewer #2 got you down? You can import track changes comments into a markdown 
 
 ## How Would I Use this to Write a Book?
 
-I'm glad you asked that! Though this is outside the scoop of this tutorial, I have created a GitHub repo for organizing and writing books using Pandoc Markdown. The repo is at: [https://github.com/oncomouse/rake-and-pandoc](https://github.com/oncomouse/rake-and-pandoc)
+I'm glad you asked that! Though this is outside the scope of this tutorial, I have created a GitHub repo for organizing and writing books using Pandoc Markdown. The repo is at: [https://github.com/oncomouse/rake-and-pandoc](https://github.com/oncomouse/rake-and-pandoc)
 
 You will need to install the Ruby programming language and a few tools in order to get started.
 
