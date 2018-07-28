@@ -1,7 +1,5 @@
 # Writing Made Plain
 
-[@ansell-pearson_germinal_1999, p. 45]
-
 This tutorial page is designed to get you writing in Markdown,  exporting to MS Word, and fully automating the management of your citations.
 
 Advantages of writing this way:
